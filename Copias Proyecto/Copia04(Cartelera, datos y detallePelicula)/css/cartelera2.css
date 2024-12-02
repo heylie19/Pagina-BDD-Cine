@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+.container
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    /*background-color: rgba(181, 181, 181, 1) ;*/
+    padding: var(--padding-container);
+    background-color: black;
+}
+
+.hero
+{
+    height: 5%;
+    min-height: 400px;
+    max-height: 500px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px lfr;
+    color: #c81c1c;
+}
+
+.nav
+{
+    --padding-container:0;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 2px 3px rgb(160, 3, 3);
+}
+
+.bx{
+    color: #c81c1c;
+    top: -4px;
+    left:20px;
+    /*color: rgb(2, 72, 125);*/
+}
+
+.nav__items{
+    list-style: none; 
+}
+
+.nav__link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2cm;
+    font-weight: 350;
+
+}
+
+.nav__links{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__menu{
+    margin-left: auto;
+    cursor: pointer;
+    color: #fff;
+    background-color: #fff;
+    display: none;
+}
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .movie {
+            background-color: #fff;
+            border-radius: 8px;
+            margin: 15px;
+            width: 250px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .movie:hover {
+            transform: scale(1.05);
+        }
+
+        .movie img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .movie-info {
+            padding: 10px;
+        }
+
+        .movie-info h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .movie-info p {
+            color: #777;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
