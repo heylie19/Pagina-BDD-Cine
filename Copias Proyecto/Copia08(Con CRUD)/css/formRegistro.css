@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/*Creando Variable  "propiedades personalozadas"*/
+:root
+{
+    --padding-container: 100px 0;
+    --color-title: rgb(255, 253, 253) ;
+}
+
+body
+{
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        background-color: #fff;
+}
+
+.container
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    /*background-color: rgba(181, 181, 181, 1) ;*/
+    padding: var(--padding-container);
+    background-color: black;
+}
+
+.hero
+{
+    height: 5%;
+    min-height: 400px;
+    max-height: 500px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px lfr;
+    color: #c81c1c;
+}
+
+.nav
+{
+    --padding-container:0;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 2px 3px rgb(160, 3, 3);
+}
+
+.bx{
+    color: #c81c1c;
+    top: -4px;
+    left:20px;
+    /*color: rgb(2, 72, 125);*/
+}
+
+.nav__items{
+    list-style: none; 
+}
+
+.nav__link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2cm;
+    font-weight: 350;
+
+}
+
+.nav__links{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__menu{
+    margin-left: auto;
+    cursor: pointer;
+    color: #fff;
+    background-color: #fff;
+    display: none;
+}
+
+
+
+
+/* .foot{
+    background-color: rgba(255, 4, 4, 0.733);
+    padding: auto;
+    text-align: center;
+} */
+
+
+
+
+
+/*ESTILO FORMULARIO*/
+.form-registro{
+    background-color:black;
+    width: 55%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 110px;
+    max-height: 900px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px lfr;
+    color: #fff;
+    padding: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    margin-top: -250px;
+    font-size: 1.5rem;
+    margin-bottom: -100px;
+    border-width: 10px;
+    box-shadow: 0 0 10px 1px hsl(217, 17%, 21%);
+}
+
+
+.lbl-formR{ 
+    color: fff;
+    text-align: left;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+.h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 0%;
+    margin-bottom: 50px;
+    font-size: 2.rem;
+    padding-left: 0%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+.parrafo{
+    color: hsl(222, 10%, 26%);
+    font-weight: 400;
+}
+.text-danger{
+    color: red;
+}
+
+.enviar{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(160, 3, 3);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.enviar:hover{
+    background-color:#fff;
+    color: rgb(160, 3, 3);
+}
+
+label.error{
+    margin:0px;
+    display: block;
+    font-size: 1rem;
+    color:rgb(160, 3, 3) ;
+}
+

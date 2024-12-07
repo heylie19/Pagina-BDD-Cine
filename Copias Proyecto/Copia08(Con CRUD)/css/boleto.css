@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/*Creando Variable  "propiedades personalozadas"*/
+:root
+{
+    --padding-container: 100px 0;
+    --color-title: rgb(255, 253, 253) ;
+}
+
+
+.containerM
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    /*background-color: rgba(181, 181, 181, 1) ;*/
+    padding: var(--padding-container);
+    background-color: black;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+.hero
+{
+    height: 5%;
+    min-height: 400px;
+    max-height: 500px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px lfr;
+    color: #c81c1c;
+}
+
+.nav
+{
+    --padding-container:0;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 2px 3px rgb(160, 3, 3);
+}
+
+.bx{
+    color: #c81c1c;
+    top: -4px;
+    left:20px;
+    /*color: rgb(2, 72, 125);*/
+}
+
+.nav__items{
+    list-style: none; 
+}
+
+
+.nav__link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2cm;
+    font-weight: 350;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+
+}
+
+.nav__links{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.nav__menu{
+    margin-left: auto;
+    cursor: pointer;
+    color: #fff;
+    background-color: #fff;
+    display: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.tabla {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.label_tabla{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+
+button{
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+button:hover {
+    background-color: #0056b3;
+} 
+
+.btnCRUD{
+    margin: center;
+   
+}
+
+
+
+.enviar{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(160, 3, 3);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.enviar:hover{
+    background-color:#fff;
+    color: rgb(160, 3, 3);
+}
+
+.caja{
+    text-align: center;
+}
+/*Formulario Validacion*/
+.formValidacion{
+    text-align: center;
+    margin:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.formValidacionInput{
+    text-align: center;
+    margin:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.h1FormV{
+    margin-top: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+
+.container{
+    background-color: #000000;
+    padding: 30px;
+    width: 50%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+
+.btnFormV{
+    background-color:  rgb(160, 3, 3);
+}
+
+.btnFormV:hover{
+    background-color:#fff;
+    color: rgb(160, 3, 3);
+}
+
+.btnEditar{
+    background-color: rgb(160, 3, 3);;
+}
+.btnEditar:hover{
+    background-color:#fff;
+    color: rgb(160, 3, 3);
+}
+
+.btnEliminar{
+    background-color: black;
+    color: white;
+}
+.btnEliminar:hover{
+    color: white;
+    background-color: rgb(160, 3, 3);
+}
+
+
